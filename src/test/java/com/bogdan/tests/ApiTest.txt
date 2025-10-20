@@ -1,0 +1,17 @@
+Test: Verify GET request to /todos/1 returns status 200 and contains title
+
+ARRANGE:
+  - Set base URL to https://jsonplaceholder.typicode.com
+  - Set endpoint to /todos/1
+  - Prepare HTTP client
+
+ACT:
+  - Send GET request to https://jsonplaceholder.typicode.com/todos/1
+  - Capture response status code
+  - Capture response body
+
+ASSERT:
+  - Verify status code is 200
+  - Verify response body is not null
+  - Verify response body contains field "title"
+  - Verify title field is not empty

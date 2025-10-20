@@ -38,8 +38,8 @@ qa-final-project-java/
 
 ## Prerequisites
 
-- Java 17 or higher
-- Maven 3.6 or higher
+- Java 21 LTS or higher
+- Maven 3.9 or higher
 - Docker (for containerized execution)
 - Docker Hub account (for CI/CD pipeline)
 
@@ -88,7 +88,7 @@ The project uses GitHub Actions for continuous integration and deployment.
 
 1. **Test Job**: Runs on every push to the main branch
    - Checks out the code
-   - Sets up Java 17
+   - Sets up Java 21 LTS
    - Caches Maven dependencies
    - Executes tests with `mvn test`
 

@@ -1,6 +1,6 @@
 # QA Final Project Java
 
-![CI Pipeline](https://github.com/bogdan/qa-final-project-java/actions/workflows/ci.yml/badge.svg)
+![CI Pipeline](https://github.com/bogdan388/qa-final-project-java/actions/workflows/ci.yml/badge.svg)
 
 ## Description
 
